@@ -20,7 +20,7 @@ app.use(cors({
 
 var mongoose =require('mongoose');
 
-mongoose.connect('mongodb://mevics:mevicsay1@ds133084.mlab.com:33084/mevicstasklist');
+mongoose.connect('mongodb://mevics:mevicsay1@ds133084.mlab.com:33084/mevicstasklist', { useNewUrlParser: true });
 
 //passport
 var passport = require('passport');
