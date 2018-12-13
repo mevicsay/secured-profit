@@ -1,0 +1,309 @@
+<!--Header Starts-->
+<div class="universe">
+  <div class="container">
+    <!--Navbar control button for small devices only-->
+    <div class="d-flex justify-content-end">
+      <nav class="d-md-none navbar navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-reorder nav-btn"></span>
+        </button>
+    </nav>
+    </div>
+    <!--collapse navbar display md-none-->
+    <div class="pos-f-t d-block d-md-none bg-light">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="nav-bg  p-4">
+          <ul class="nav ml-auto mr-auto flex-column">
+            <li class="nav-item">
+              <a class="text-white nav-link"   [routerLink]="['/home']" routerLinkActive="active">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link"  [routerLink]="['/funds']" routerLinkActive="active">Add Funds</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link"   [routerLink]="['/withdraw']" routerLinkActive="active">Withdraw Funds</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link"   [routerLink]="['/deposit']" routerLinkActive="active">Active Deposit</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link"   [routerLink]="['/history']" routerLinkActive="active">History</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link mr-auto"   [routerLink]="['/referral']" routerLinkActive="active">Referals</a>
+            </li>
+            <li class="nav-item">
+            <a class="text-white nav-link mr-auto"   [routerLink]="['/account']" routerLinkActive="active">Account</a>
+            </li>
+            <li class="nav-item">
+            <a class="text-white nav-link mr-auto"   [routerLink]="['/security']" routerLinkActive="active">Security</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link mr-auto" (click)="logout()">Sign-out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <div class="row pad px-0 border-line ">
+      <div class="col-10 col-sm-8 col-lg-6 col-xl-3 ml-auto mr-auto pl-md-5 pl-lg-0 p-0">
+        <a>
+          <img src="../../../assets/images/logo.png"  class="pl-5 marg pl-lg-0 mb-4">
+          <span class="text pl-5 pl-sm-1  logo-text">Secfx<span class="chain">Chain</span></span>
+        </a>
+      </div>
+      <div class="col-6 mr-auto ml-auto col-md-10 col-lg-8 col-xl-7 px-0">
+        <ul class="nav  flex-column flex-md-row p-0">
+          <li class="nav-item">
+              <a href="#" target="__blank" class="nav-link">
+                  <span><i class="fa fa-facebook chain"></i></span>
+                  <span class="ml-2">Facebook</span>
+              </a>
+          </li>
+          <li class="nav-item ">
+              <a href="#" target="__blank" class="nav-link">
+                  <span><i class="fa fa-instagram chain"></i></span>
+                  <span class="ml-2">Instagram</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">
+                  <span><i class="fa fa-phone chain"></i></span>
+                  <span class="ml-2">Phone</span>
+                  <p class="">+14422355192</p>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">
+                  <span><i class="fa fa-envelope-o chain"></i></span>
+                  <span class="ml-2">Email</span>
+                  <p class="">admin@bitfxchain.com</p>
+              </a>
+          </li>
+        </ul>
+      </div> 
+      <div class="col-10 col-sm-7 col-md-4 col-lg-2 col-xl-2  mr-auto ml-auto pl-5 pl-sm-4 pl-md-5 pt-md-3 pt-lg-0 px-lg-0 pt-xl-4">
+        <span id="present" class="yellow py-2 text-white ml-lg-0 px-5" >11:53</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+  <!--Nav box display for medium devices and above-->
+    <div class="row border-line">
+      <div class="col-12 py-3 d-none d-md-block p-0 p-lg-3">
+        <ul class="nav p-0">
+          <li class="nav-item px-2 px-md-3 px-lg-3 mt-2">
+            <span class="color ultra-medium text-white px-3">
+              <a class="ultra-medium"   [routerLink]="['/home']" routerLinkActive="active">Overview</a>
+            </span>
+          </li>
+          <li class="nav-item px-2 px-md-3 px-lg-3 mt-2">
+            <span class="color ultra-medium text-white px-3">
+              <a class="ultra-medium"   [routerLink]="['/funds']" routerLinkActive="active">Add Funds</a>
+            </span>
+          </li>
+          <li class="nav-item px-2 px-md-3 px-lg-4 px-xl-3 mt-2">
+            <span class="color ultra-medium text-white px-3">
+              <a class="ultra-medium"   [routerLink]="['/withdraw']" routerLinkActive="active">Withdraw Funds</a>
+            </span>
+          </li>
+          <li class="nav-item px-2 px-md-3 px-lg-4 px-xl-3 mt-2">
+            <span class="color ultra-medium text-white px-3">
+              <a class="ultra-medium"   [routerLink]="['/deposit']" routerLinkActive="active">Active Deposit</a>
+            </span>
+          </li>
+          <li class="nav-item px-2 px-md-3 px-xl-3 mt-2">
+            <span class="color ultra-medium text-white px-3">
+              <a class="ultra-medium"   [routerLink]="['/history']" routerLinkActive="active">History</a>
+            </span>
+          </li>
+          <li class="nav-item px-2 px-md-3 px-lg-3 ml-md-5 ml-lg-0 mt-2">
+            <span class="color ultra-medium text-white ml-md-5 ml-lg-0 px-3">
+              <a class="ultra-medium"   [routerLink]="['/referral']" routerLinkActive="active">Referals</a>
+            </span>
+          </li>
+          <li class="nav-item px-2 px-md-3 px-lg-3 mt-2">
+            <span class="color ultra-medium text-white px-3">
+              <a class="ultra-medium"   [routerLink]="['/account']" routerLinkActive="active">Account</a>
+            </span>
+          </li>
+          <li class="nav-item px-2 px-md-3 py-0 px-lg-3 mt-2">
+            <span class="color ultra-medium text-white px-3">
+              <a class="ultra-medium"   [routerLink]="['/security']" routerLinkActive="active">Security</a>
+            </span>
+          </li>
+          <li class="nav-item mt-2">
+          <span class="color ultra-medium text-white px-3">
+            <a class="ultra-medium" (click)="logout()" >SIGN OUT</a>
+          </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+    <!--Body section starts-->
+    <div class="container px-4">
+      <div class="row  my-4 border-line pb-1 yellow">
+        <div class="col-12 col-md-4 col-lg-4 col-xl-3 bord-right py-3">
+          <h6 class="ultra-large mb-2 caplock">{{username}}</h6>
+          <h6 class="ultra-medium-x my-0">Registration Date: Nov- 10- 2018</h6>
+        </div>
+        <div class="col-6 col-md-4 col-lg-4 col-xl-2 bord-right py-3">
+          <h6 class="ultra-large mb-2">Email:</h6>
+          <h6 class="ultra-medium-x my-0">Mevics2000@gmail.com</h6>
+        </div>
+        <div class="col-6 col-md-4 col-lg-4 col-xl-2 bord-right pl-lg-1 pr-lg-0 py-3">
+          <h6 class="ultra-large mb-2">Last Access:</h6>
+          <h6 class="ultra-medium-x my-0 px-0">Nov-10-2018 01:20:00pm</h6>
+        </div>
+        <div class="col-3 col-md-2 col-lg-2 col-xl-1 py-3">
+          <h6 class="ultra-large ultra-medium-x mb-2">Referal Link:</h6>
+        </div>
+        <div class="col-9 col-md-7 col-lg-7 col-xl-3 py-md-0 py-3 px-2">
+          <div class="row">
+            <div class="col-11 col-md-12 col-lg-11 mt-lg-3  white-border">
+            <div class=" ultra-medium px-1 text-white">https:/bitfxchain.com/?ref=Mevics2...</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3 col-md-2 col-lg-3 col-xl-1 mr-auto ml-auto  py-0 px-0">
+            <a  class="color ultra-medium mt-lg-3 lit-btn-a bg-warning px-3">Copy</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-4">
+      <div class="row my-4 py-0 gray">
+        <div class="col-8 col-md-3 col-md-4 mr-auto ml-auto pl-sm-5 pl-md-0 py-2">
+          <h4 class="ultra-large mt-2 pl-sm-3 pl-md-0 pl-lg-3">Account balance <span class="ml-2 big chain">$0.00</span></h4>
+        </div>
+        <div class="col-6 col-sm-5 col-md-3 mr-auto ml-auto py-2">
+          <h4 class="ultra-large mb-1"><span class="fa fa-money"></span> Active deposit</h4>
+          <h6 class="ultra-medium-x my-0 big chain pl-4 pl-lg-0">$0.00</h6>
+        </div>
+        <div class="col-7 col-sm-5 col-md-3 mr-auto ml-auto py-2">
+          <h4 class="ultra-large mb-1"><span class="fa fa-line-chart"></span> Total earned</h4>
+          <h6 class="ultra-medium-x my-0 big chain pl-5 pl-lg-0">$0.00</h6>
+        </div>
+        <div class="col-7 col-sm-6 col-md-3 col-lg-2 mr-auto ml-auto pl-sm-3 pl-md-0 py-2 px-0">
+          <div class="px-1">
+            <a [routerLink]="['/funds']" routerLinkActive="active"><button class="yellow hov text-white hov ultra-medium px-5 px-lg-4 px-xl-5">Add Funds</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Body section continues...-->
+
+    <!--Main body section-->
+    <div class="container px-4 pb-3 mt-2 mb-0">
+      <div class="row px-0">
+        <div class="col-12 px-3 py-4 color-btn">
+          <div class="pl-0 py-0">
+            <h3 class="ultra-large-x ultra-light-x py-3">Active Deposits</h3>
+            <p  class="ultra-light">Total: $0.00</p>
+              <div class="col-12">
+                <div class="row bg-dark" >
+                  <div class="col-12 pt-2">
+                      <h4 class="ultra-large textt">BLAINE</h4>
+                  </div>
+                </div>
+                <div class="row red border-line">
+                    <div class="col-4 col-md-6 col-lg-8">
+                      <p class="ultra-medium textt">Plan</p>
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2  pt-3">
+                      <h5 class="ultra-medium">Amount Spent($)</h5>
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2 pt-3">
+                        <h5 class="ultra-medium">Daily Profit(%)</h5>
+                      </div>
+                  </div>
+                <div class="row bg-dark border-line">
+                  <div class="col-4 col-md-6 col-lg-8 brd-right">
+                    <p class="ultra-medium">Plan 1</p>
+                  </div>
+                  <div class="col-4 col-md-3 col-lg-2 brd-right pt-3">
+                    <h5 class="ultra-medium">$10.00 - $5000.00</h5>
+                  </div>
+                  <div class="col-4 col-md-3 col-lg-2 pt-3">
+                      <h5 class="ultra-medium">120.00</h5>
+                    </div>
+                </div>
+                <p class="ultra-light">No deposits for this plan</p>
+              </div>
+           </div>
+
+           <div class="pl-0 py-0">
+              <div class="col-12">
+                  <div class="row bg-dark" >
+                    <div class="col-12 pt-2">
+                        <h4 class="ultra-large textt">DYNAMO</h4>
+                    </div>
+                  </div>
+                  <div class="row red border-line">
+                      <div class="col-4 col-md-6 col-lg-8">
+                        <p class="ultra-medium textt">Plan</p>
+                      </div>
+                      <div class="col-4 col-md-3 col-lg-2 pt-3">
+                        <h5 class="ultra-medium">Amount Spent($)</h5>
+                      </div>
+                      <div class="col-4 col-md-3 col-lg-2 pt-3">
+                          <h5 class="ultra-medium">Daily Profit(%)</h5>
+                        </div>
+                    </div>
+                  <div class="row bg-dark border-line">
+                    <div class="col-4 col-md-6 col-lg-8 brd-right">
+                      <p class="ultra-medium">Plan 1</p>
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2 brd-right pt-3">
+                      <h5 class="ultra-medium">$5000.00 - $10000.00</h5>
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2 pt-3">
+                        <h5 class="ultra-medium">43.33</h5>
+                      </div>
+                  </div>
+                  <p class="ultra-light">No deposits for this plan</p>
+                </div>
+             </div>
+
+             <div class="pl-0 py-0">
+                <div class="col-12">
+                    <div class="row bg-dark" >
+                      <div class="col-12 pt-2">
+                          <h4 class="ultra-large textt">MAXIMA</h4>
+                      </div>
+                    </div>
+                    <div class="row red border-line">
+                        <div class="col-4 col-md-6 col-lg-8">
+                          <p class="ultra-medium textt">Plan</p>
+                        </div>
+                        <div class="col-4 col-md-3 col-lg-2 pt-3">
+                          <h5 class="ultra-medium">Amount Spent($)</h5>
+                        </div>
+                        <div class="col-4 col-md-3 col-lg-2 pt-3">
+                            <h5 class="ultra-medium">Daily Profit(%)</h5>
+                          </div>
+                      </div>
+                    <div class="row bg-dark border-line">
+                      <div class="col-4 col-md-6 col-lg-8 brd-right">
+                        <p class="ultra-medium">Plan 1</p>
+                      </div>
+                      <div class="col-4 col-md-3 col-lg-2 brd-right pt-3">
+                        <h5 class="ultra-medium">$1000.00 - $10000.00</h5>
+                      </div>
+                      <div class="col-4 col-md-3 col-lg-2 pt-3">
+                          <h5 class="ultra-medium">100.00</h5>
+                        </div>
+                    </div>
+                    <p class="ultra-light">No deposits for this plan</p>
+                  </div>
+               </div>
+          </div>
+      </div>
+    </div>
+    <!--Body section ends here-->

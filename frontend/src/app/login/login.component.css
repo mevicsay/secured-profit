@@ -1,0 +1,242 @@
+body{
+    color: white !important;
+}
+.back{
+    background-color: #252a33 !important;
+}
+.universal{
+    background-image: url(../../assets/images/splaash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.universe{
+    background-color: #191f29;
+}
+h6, label{
+    color: white;
+}
+a{
+    color: white !important;
+    font-size: 16px !important;
+    font-family: "RobotoMedium";
+}
+a:hover{
+    text-decoration: none !important;
+}
+.color{
+    background-color: rgba(245, 245, 220, 0);
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+    font-family: "MagistralTT";
+    font-weight: 700;
+}
+.color:hover{
+    background-color: #E79B07;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+}
+.line{
+    border: 2px solid #E79B07 !important;
+    -webkit-border-radius: 25px !important;
+            border-radius: 25px !important;
+}
+
+.text{
+    font-size: 35px;
+}
+.chain{
+    color: #E79B07;
+}
+
+.border-line{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.border-line-top{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.bord-left{
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+.pad{
+    padding-top: 35px;
+}
+.nav-btn{
+    color: #E79B07;
+    font-weight: 600;
+    font-size: 30px;
+}
+.nav-bg{
+    background-color: #E79B07;
+}
+.font_one{
+    font-family: "MagistralTT";
+    font-weight: 500;
+}
+.font_two{
+    font-family: "MagistralTT";
+    font-weight: 800;
+}
+.font_three{
+    font-family: "RobotoBold";
+    font-weight: 600;
+}
+.small{
+    font-size: 14px;
+    color: white;
+}
+.ultra-light{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "RobotoRegular";
+}
+
+.roboto{
+    font-weight: 500;
+    font-family: "MagistralTT-Bold";
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.textt {
+    text-align: center;
+}
+
+
+.li{
+    color: rgba(134, 131, 124, 0.336);
+}
+.link{
+    font-size: 14px !important;
+}
+.link:hover{
+    color: #E79B07 !important;
+    border-bottom: 1px solid rgba(231, 156, 7, 0.397);
+}
+.pad{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.lit-btn{
+    background-color:#E79B07;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    border: 1px solid rgb(250, 173, 18);
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 500; 
+}
+.lit-btn:hover, .lit-btn-a:hover{
+    border: 1px solid rgba(216, 211, 200, 0.801);
+}
+.gold{
+    color: rgb(175, 123, 20) !important;
+}
+.ultra-light{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    font-family: "RobotoRegular" !important;
+}
+
+.moving-up{
+    position:absolute;
+    top: -12px;
+    left: 12px;
+    background-color: #191f29;
+}
+.moving-down{
+    position:absolute;
+    bottom: -18px;
+    left: 50px;
+    background-color: #191f29;
+}
+.padd-lef{
+    padding-left: 50px;
+}
+@media(min-width: 360px ){
+    .moving-up{
+        position:absolute;
+        top: -12px;
+        left: 12px;
+    }
+    .moving-down{
+        position:absolute;
+        bottom: -18px;
+        left: 55px;
+    }
+    .padd-lef{
+        padding-left: 62px;
+    }
+}
+@media (min-width:600px){
+    .moving-up{
+        position:absolute;
+        top: -12px;
+        left: 25px;
+    }
+    .moving-down{
+        position:absolute;
+        bottom: -18px;
+        left: 125px;
+    }
+    .padd-lef{
+        padding-left: 75px;
+    }
+}
+@media (min-width:768px){
+    .moving-up{
+        position:absolute;
+        top: -12px;
+        left: 144px;
+    }
+    .moving-down{
+        position:absolute;
+        bottom: -18px;
+        left: 210px;
+    }
+    .padd-lef{
+        padding-left: 72px;
+    }
+}
+
+@media (min-width:1000px){
+    .moving-up{
+        position:absolute;
+        top: -12px;
+        left: 55px;
+    }
+    .moving-down{
+        position:absolute;
+        bottom: -18px;
+        left: 130px;
+    }
+    .padd-lef{
+        padding-left: 48px;
+    }
+}
+@media (min-width:1280px){
+    .moving-up{
+        position:absolute;
+        top: -12px;
+        left: 69px;
+    }
+    .moving-down{
+        position:absolute;
+        bottom: -18px;
+        left: 180px;
+    }
+    .padd-lef{
+        padding-left: 48px;
+    }
+}

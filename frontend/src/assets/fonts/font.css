@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "RobotoBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("RobotoBold.woff")
+}
+
+@font-face {
+  font-family: "RobotoMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("RobotoMedium.woff")
+}
+
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("RobotoRegular.woff")
+}
+
+@font-face {
+  font-family: "RobotoLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("RobotoLight.woff")
+}
+@font-face {
+    font-family: "MagistralTT-bold(1)";
+    font-style: normal;
+    font-weight: normal;
+    src: url("magistraltt-bold.woff")
+  }
+  
+@font-face {
+  font-family: "MagistralTT";
+  font-style: normal;
+  font-weight: normal;
+  src: url("magistraltt.woff")
+}
+
+@font-face {
+  font-family: "MagistralTT-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("magistraltt-bold.woff");
+}

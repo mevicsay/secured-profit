@@ -1,0 +1,221 @@
+<div class="virse">
+  <div class="dots">
+    <div class="container">
+      <!--Navbar control button for small devices only-->
+      <div class="d-flex justify-content-end">
+        <nav class="d-lg-none navbar navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-reorder nav-btn"></span>
+          </button>
+      </nav>
+      </div>
+      <!--collapse navbar display lg-none-->
+      
+      <div class="pos-f-t d-block d-lg-none bg-light">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="nav-bg  p-4">
+            <ul class="nav ml-auto mr-auto flex-column">
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/user']" routerLinkActive="active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link " [routerLink]="['/about']" routerLinkActive="active">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/invest']" routerLinkActive="active">For Investors</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/partners']" routerLinkActive="active">For partners</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link mr-auto" [routerLink]="['/rules']" routerLinkActive="active">Rules</a>
+              </li>
+              <li class="nav-item">
+              <a class="text-white nav-link mr-auto" [routerLink]="['/support']" routerLinkActive="active">Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        
+      <div class="row pt-5 px-0 border-line">
+        <div class="col-10 col-sm-8 col-lg-4 col-xl-3 ml-auto mr-auto pl-md-5 pl-lg-0 p-0">
+          <a [routerLink]="['/user']" routerLinkActive="active">
+            <img src="../assets/images/logo.png"  class="pl-5 marg pl-lg-0 mb-4">
+            <span class="text pl-5 pl-sm-1  logo-text">Secfx<span class="chain">Chain</span></span>
+          </a>
+        </div>
+        <div class="col-6 mr-auto ml-auto col-md-10 col-lg-8 col-xl-7 px-0">
+          <ul class="nav  flex-column flex-md-row p-0">
+            <li class="nav-item">
+                <a href="#" target="__blank" class="nav-link">
+                    <span><i class="fa fa-facebook chain"></i></span>
+                    <span class="ml-2">Facebook</span>
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a href="#" target="__blank" class="nav-link">
+                    <span><i class="fa fa-instagram chain"></i></span>
+                    <span class="ml-2">Instagram</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span><i class="fa fa-phone chain"></i></span>
+                    <span class="ml-2">Phone</span>
+                    <p class="">+14422355192</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span><i class="fa fa-envelope-o chain"></i></span>
+                    <span class="ml-2">Email</span>
+                    <p class="">admin@bitfxchain.com</p>
+                </a>
+            </li>
+          </ul>
+        </div> 
+        <div class="col-10 col-sm-7 col-lg-3 col-xl-2  mr-auto ml-auto pl-5 pl-sm-4 pl-md-5 px-lg-0 pt-xl-4">
+          <a  [routerLink]="['/login']" routerLinkActive="active" >
+            <button class="color text-white ml-md-5 ml-lg-0 px-3">SIGN IN</button>
+          </a>
+          <a [routerLink]="['/register']" routerLinkActive="active">
+            <button class="color text-white ml-md-5 ml-lg-0 px-3">SIGN UP</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <!--Nav box display for medium devices and above-->
+      <div class="row">
+        <div class="col-12 py-3 d-none d-md-block p-0 p-lg-3">
+          <ul class="nav p-0">
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/user']" routerLinkActive="active">Home</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/about']" routerLinkActive="active">About</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4 px-xl-5">
+                <a class="nav-link color" [routerLink]="['/invest']" routerLinkActive="active">For Investors</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4 px-xl-5">
+                <a class="nav-link color" [routerLink]="['/partner']" routerLinkActive="active">For partners</a>
+            </li>
+            <li class="nav-item px-2 px-xl-4">
+                <a class="nav-link color" [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/rules']" routerLinkActive="active">Rules</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/support']" routerLinkActive="active">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="display">
+      <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6  logo-pad px-0">
+              <!--LOGO AREA-->
+              <img src="../assets/images/logo_light.png" class="w-100">
+              <img src="../assets/images/logo-el-right.png" class="decrease-one logo-pos-one"> 
+              <img src="../assets/images/logo-el-left.png" class="decrease-one logo-pos-two">
+              <img src="../assets/images/logo-el4.png" class="decrease-one one logo-pos-three">
+              <img src="../assets/images/logo-el5.png" class="decrease-two logo-pos-four">
+              <img src="../assets/images/logo-el3.png" class="decrease-three logo-pos-five">
+              <img src="../assets/images/logo-el2.png" class="decrease-four logo-pos-six">
+              <img src="../assets/images/logo-el1.png" class="decrease-one dex-one logo-pos-sev">
+              <img src="../assets/images/logo-center.png" class="decrease-five logo-pos-eig">
+            </div>
+          
+            <div class="col-12 col-lg-6 pt-3">
+              <h2 class="py-4 font_one">Earn from 50% to 70% every day!</h2>
+              <div class="media">
+                <img class="turn mr-2 mt-5 mb-2" src="../assets/images/btc-big.png"> 
+                  <button type="button" class="text-left trans border-left btn btn-outline text-white">
+                    Bitcoin is a new generation <br>
+                    of decentralized digital <br>
+                    currency, created and <br>
+                    operating only on the <br>
+                    Internet <br>
+                  </button>          
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+ 
+
+
+  <div class="container py-5">
+    <div class="row py-3 border-line-top">
+        <div class="col-12 pt-3">
+        <h3 class="font_two">Service Plans</h3>
+        <p class="ultra-light">
+            The service plan is your ticket to the investment buisness with our project. All that is required from you is the choice of
+            suitable conditions that correspond to your financial capabilities. To maximize your profit, icrease the deposiit amountt.
+        </p>
+        <p class="ultra-light mb-3">
+            Investors last Deposit and Withdrawal has beem deactivated due to cmpliants from most investors on their investment
+            privacy, meanwhile this will be re-activated when need arise!
+        </p>
+        </div>
+        <div class="col-11  col-sm-7 col-md-6 col-lg-3 mr-auto ml-auto mt-3 mt-lg-0 roboto">
+        <span class="card-m textt py-5 px-4">
+            <h4 style="font-weight:600;">BLAINE</h4>
+            <h1 class="huge">120%</h1>
+            <p class="border-line-top mb-0">Min/Max amount:</p>
+            <h6 class="mt-0">$10 - $5000</h6>
+            <h6 class="border-line-top">Profit + investment cash out!</h6>
+            <p class="border-line-top mb-0">Period of investment:</p>
+            <h6 class="mt-0 border-line">24 hours</h6>
+            <div>
+            <a href="#">
+                <span class="lit-btn px-4">Sign Up</span>
+            </a>
+            </div>
+        </span>
+        </div>
+        <div class="col-11 col-sm-7 col-md-6 col-lg-3 mr-auto ml-auto mt-3 mt-lg-0 roboto">
+        <span class="card-a textt py-5 px-4">
+            <h4 style="font-weight:600;">DYNAMO</h4>
+            <h1 class="huge">145%</h1>
+            <p class="border-line-top mb-0">Min/Max amount:</p>
+            <h6 class="mt-0">$10 - $5000</h6>
+            <h6 class="border-line-top">Profit + investment cash out!</h6>
+            <p class="border-line-top mb-0">Period of investment:</p>
+            <h6 class="mt-0 border-line">3 days</h6>
+            <div>
+            <a href="#">
+                <span class="lit-btn-a px-4">Sign Up</span>
+            </a>
+            </div>
+        </span>
+        </div>
+        <div class="col-11 col-sm-7 col-md-6 col-lg-3 mr-auto ml-auto mt-3 mt-lg-0 roboto">
+            <span class="card-a textt py-5 px-4">
+            <h4 style="font-weight:600;">MAXIMA</h4>
+            <h1 class="huge-b">200%</h1>
+            <p class="border-line-top mb-0">Min/Max amount:</p>
+            <h6 class="mt-0">$10000 - ABOVE</h6>
+            <h6 class="border-line-top">Profit + investment cash out!</h6>
+            <p class="border-line-top mb-0">Period of investment:</p>
+            <h6 class="mt-0 border-line">2 days</h6>
+            <div>
+                <a href="#">
+                <span class="lit-btn-a px-4">Sign Up</span>
+                </a>
+            </div>
+            </span>
+        </div>
+    </div>
+  </div>
+</div>

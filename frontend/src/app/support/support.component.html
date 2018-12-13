@@ -1,0 +1,200 @@
+<div class="verse">
+  <div class="dots">
+    <div class="container">
+      <!--Navbar control button for small devices only-->
+      <div class="d-flex justify-content-end">
+        <nav class="d-lg-none navbar navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-reorder nav-btn"></span>
+          </button>
+      </nav>
+      </div>
+      <!--collapse navbar display lg-none-->
+      
+      <div class="pos-f-t d-block d-lg-none bg-light">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="nav-bg  p-4">
+            <ul class="nav ml-auto mr-auto flex-column">
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/user']" routerLinkActive="active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link " [routerLink]="['/about']" routerLinkActive="active">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/invest']" routerLinkActive="active">For Investors</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/partner']" routerLinkActive="active">For partners</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link mr-auto" [routerLink]="['/rules']" routerLinkActive="active">Rules</a>
+              </li>
+              <li class="nav-item">
+              <a class="text-white nav-link mr-auto" [routerLink]="['/support']" routerLinkActive="active">Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        
+      <div class="row pad px-0 border-line">
+        <div class="col-10 col-sm-8 col-lg-4 col-xl-3 ml-auto mr-auto pl-md-5 pl-lg-0 p-0">
+          <a [routerLink]="['/user']" routerLinkActive="active">
+            <img src="../assets/images/logo.png"  class="pl-5 marg pl-lg-0 mb-4">
+            <span class="text pl-5 pl-sm-1  logo-text">Secfx<span class="chain">Chain</span></span>
+          </a>
+        </div>
+        <div class="col-6 mr-auto ml-auto col-md-10 col-lg-8 col-xl-7 px-0">
+          <ul class="nav  flex-column flex-md-row p-0">
+            <li class="nav-item">
+                <a href="#" target="__blank" class="nav-link">
+                    <span><i class="fa fa-facebook chain"></i></span>
+                    <span class="ml-2">Facebook</span>
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a href="#" target="__blank" class="nav-link">
+                    <span><i class="fa fa-instagram chain"></i></span>
+                    <span class="ml-2">Instagram</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span><i class="fa fa-phone chain"></i></span>
+                    <span class="ml-2">Phone</span>
+                    <p class="">+14422355192</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span><i class="fa fa-envelope-o chain"></i></span>
+                    <span class="ml-2">Email</span>
+                    <p class="">admin@bitfxchain.com</p>
+                </a>
+            </li>
+          </ul>
+        </div> 
+        <div class="col-10 col-sm-7 col-lg-3 col-xl-2  mr-auto ml-auto pl-5 pl-sm-4 pl-md-5 px-lg-0 pt-xl-4">
+          <a  [routerLink]="['/login']" routerLinkActive="active" >
+            <button class="color text-white ml-md-5 ml-lg-0 px-3">SIGN IN</button>
+          </a>
+          <a [routerLink]="['/register']" routerLinkActive="active">
+            <button class="color text-white ml-md-5 ml-lg-0 px-3">SIGN UP</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <!--Nav box display for medium devices and above-->
+      <div class="row">
+        <div class="col-12 py-3 d-none d-md-block p-0 p-lg-3">
+          <ul class="nav p-0">
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/user']" routerLinkActive="active">Home</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/about']" routerLinkActive="active">About</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4 px-xl-5">
+                <a class="nav-link color" [routerLink]="['/invest']" routerLinkActive="active">For Investors</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4 px-xl-5">
+                <a class="nav-link color" [routerLink]="['/partner']" routerLinkActive="active">For partners</a>
+            </li>
+            <li class="nav-item px-2 px-xl-4">
+                <a class="nav-link color" [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/rules']" routerLinkActive="active">Rules</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/support']" routerLinkActive="active">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+     </div>
+        
+
+
+
+
+    <div class="display">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6  logo-pad px-0">
+            <!--LOGO AREA-->
+            <img src="../../assets/images/logo_light.png" class="w-100">
+            <img src="../../assets/images/logo-el-right.png" class="decrease-one logo-pos-one"> 
+            <img src="../../assets/images/logo-el-left.png" class="decrease-one logo-pos-two">
+            <img src="../../assets/images/logo-el4.png" class="decrease-one one logo-pos-three">
+            <img src="../../assets/images/logo-el5.png" class="decrease-two logo-pos-four">
+            <img src="../../assets/images/logo-el3.png" class="decrease-three logo-pos-five">
+            <img src="../../assets/images/logo-el2.png" class="decrease-four logo-pos-six">
+            <img src="../../assets/images/logo-el1.png" class="decrease-one dex-one logo-pos-sev">
+            <img src="../../assets/images/logo-center.png" class="decrease-five logo-pos-eig">
+          </div>
+        
+          <div class="col-12 col-lg-6 pt-3">
+            <h2 class="py-4 font_one">Earn from 50% to 70% every day!</h2>
+            <div class="media">
+              <img class="turn mr-2 mt-5 mb-2" src="../../assets/images/btc-big.png"> 
+                <button type="button" class="text-left trans border-left btn btn-outline text-white">
+                  SecuredprofitOption is a new generation <br>
+                  of decentralized digital <br>
+                  currency, created and <br>
+                  operating only on the <br>
+                  Internet <br>
+                </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container px-sm-0">
+    <div class="row border-line-top py-4">
+      <div class="col-12 col-lg-3">
+        <h3 class="font_two pb-2">Support</h3>
+        <h6><span class="fa fa-phone gold"></span> Phone</h6>
+          <p class="ml-3">+14422355192</p>
+          <h6><span class="fa fa-envelope-o gold"></span> E-Mail:</h6>
+          <p class="ml-3">admin@bitfxchain.com</p>
+      </div>
+      <div class="col-12 col-lg-9">
+        <div class="map ">
+          <div class="opac"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <h3 class="font_two pb-2">Send Messages</h3>
+        <div class="line pad my-3">
+          <form>
+            <div class="form-row">
+                <div class="col-4 ml-3 textt px-0 ultra-medium">
+                    <input type="text" class="form-control line-up my-1" placeholder="Your name">
+                </div>
+                <div class="col-4 textt ml-3 ultra-medium">
+                    <input type="text" class="form-control line-up my-1" placeholder="Your email">
+                </div>
+                <div class="col-11 textt ml-3 ultra-medium">
+                    <input type="message" class="form-control line-up my-1" placeholder="Message">
+                </div>
+                <div class="col-7 col-sm-6 col-md-4 col-lg-5 col-xl-3 mr-auto ml-auto my-3">
+                <a class="px-4 text-dark lit-btn" href="#">
+                    Send
+                </a>
+                </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

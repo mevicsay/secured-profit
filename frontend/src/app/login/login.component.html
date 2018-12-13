@@ -1,0 +1,151 @@
+<div class="universe">
+  <div class="container">
+    <!--Navbar control button for small devices only-->
+    <div class="d-flex justify-content-end">
+      <nav class="d-lg-none navbar navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa fa-reorder nav-btn"></span>
+        </button>
+    </nav>
+    </div>
+    <!--collapse navbar display lg-none-->
+    <div class="pos-f-t d-block d-lg-none bg-light">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="nav-bg  p-4">
+          <ul class="nav ml-auto mr-auto flex-column">
+            <li class="nav-item">
+              <a class="text-white nav-link" [routerLink]="['/user']" routerLinkActive="active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link "  [routerLink]="['/about']" routerLinkActive="active">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link"  [routerLink]="['/invest']" routerLinkActive="active">For Investors</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link" [routerLink]="['/partner']" routerLinkActive="active">For partners</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link"  [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-white nav-link mr-auto"  [routerLink]="['/rules']" routerLinkActive="active">Rules</a>
+            </li>
+            <li class="nav-item">
+            <a class="text-white nav-link mr-auto"  [routerLink]="['/support']" routerLinkActive="active">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <div class="row pt-5 px-0 border-line">
+      <div class="col-10 col-sm-8 col-lg-4 col-xl-3 ml-auto mr-auto pl-md-0 pl-lg-0 p-0">
+        <a href="../index.html">
+          <img src="../../assets/images/logo.png" class="pl-0 mb-4">
+          <span class="text pl-1 logo-text">Secfx<span class="chain">Chain</span></span>
+        </a>
+      </div>
+      <div class="col-6 mr-auto ml-auto col-md-10 col-lg-8 col-xl-7 px-0">
+        <ul class="nav  flex-column flex-md-row p-0">
+          <li class="nav-item">
+              <a href="#" target="__blank" class="nav-link">
+                  <span><i class="fa fa-facebook chain"></i></span>
+                  <span class="ml-2">Facebook</span>
+              </a>
+          </li>
+          <li class="nav-item ">
+              <a href="#" target="__blank" class="nav-link">
+                  <span><i class="fa fa-instagram chain"></i></span>
+                  <span class="ml-2">Instagram</span>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">
+                  <span><i class="fa fa-phone chain"></i></span>
+                  <span class="ml-2">Phone</span>
+                  <p class="">+14422355192</p>
+              </a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">
+                  <span><i class="fa fa-envelope-o chain"></i></span>
+                  <span class="ml-2">Email</span>
+                  <p class="">admin@bitfxchain.com</p>
+              </a>
+          </li>
+        </ul>
+      </div> 
+      <div class="col-10 col-sm-7 col-lg-3 col-xl-2  mr-auto ml-auto pl-5 pl-sm-4 pl-md-5 px-lg-0 pt-xl-4">
+        <a [routerLink]="['/login']" routerLinkActive="active" class="color text-white ml-md-5 ml-lg-0 px-3">SIGN IN</a>
+        <a [routerLink]="['/register']" routerLinkActive="active" class="color text-white px-3">SIGN UP</a>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container">
+   <!--Nav box display for medium devices and above-->
+    <div class="row">
+      <div class="col-12 py-3 d-none d-md-block p-0 p-lg-3">
+        <ul class="nav p-0">
+          <li class="nav-item px-2 px-lg-4">
+              <a class="nav-link color"  [routerLink]="['/user']" routerLinkActive="active">Home</a>
+          </li>
+          <li class="nav-item px-2 px-lg-4">
+              <a class="nav-link color"  [routerLink]="['/about']" routerLinkActive="active">About</a>
+          </li>
+          <li class="nav-item px-2 px-lg-4 px-xl-5">
+              <a class="nav-link color"  [routerLink]="['/invest']" routerLinkActive="active">For Investors</a>
+          </li>
+          <li class="nav-item px-2 px-lg-4 px-xl-5">
+              <a class="nav-link color"  [routerLink]="['/partner']" routerLinkActive="active">For partners</a>
+          </li>
+          <li class="nav-item px-2 px-xl-4">
+              <a class="nav-link color"  [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+          </li>
+          <li class="nav-item px-2 px-lg-4">
+              <a class="nav-link color"  [routerLink]="['/rules']" routerLinkActive="active">Rules</a>
+          </li>
+          <li class="nav-item px-2 px-lg-4">
+              <a class="nav-link color"  [routerLink]="['/support']" routerLinkActive="active">Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-lg-6 my-5 mr-auto ml-auto roboto">
+      <div class="col-10 col-md-6 col-lg-8 textt moving-up mx-3">
+          <h6 class="text-white">LOGIN INTO YOUR ACCOUNT</h6>
+      </div> 
+      <div class="line pad">
+        <form [formGroup]="loginForm">
+          <div class="form-row">
+            <div class="col-10 mr-auto ml-auto textt">
+              <label for="username" class="text-center text-white">Login</label>
+              <input formControlName="email" type="text" class="form-control line my-2" placeholder="Email">
+            </div>
+            <div class="col-10 mr-auto ml-auto textt">
+                <label for="Password" class="text-white">Password</label>
+              <input formControlName="password" type="password" class="form-control line my-2" placeholder="Password">
+            </div>
+            <div class="col-9 col-lg-8 mr-auto ml-auto">
+              <p class="ultra-light text-white">Forgot your password? <a class="ultra-light gold" href="#">Click here</a></p>
+             </div>
+          </div>
+          <div class="col-8 col-sm-6 col-md-4 col-lg-5 col-xl-4 padd-lef moving-down mr-auto ml-auto">
+            <a class="px-4 text-white lit-btn" (click)="login()" (click)="clearForm()">
+              SIGN IN
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

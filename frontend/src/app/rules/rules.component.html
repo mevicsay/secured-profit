@@ -1,0 +1,220 @@
+<div class="universal">
+  <div class="dots">
+    <div class="container">
+      <!--Navbar control button for small devices only-->
+      <div class="d-flex justify-content-end">
+        <nav class="d-lg-none navbar navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-reorder nav-btn"></span>
+          </button>
+      </nav>
+      </div>
+      <!--collapse navbar display lg-none-->
+      
+      <div class="pos-f-t d-block d-lg-none bg-light">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="nav-bg  p-4">
+            <ul class="nav ml-auto mr-auto flex-column">
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/user']" routerLinkActive="active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link " [routerLink]="['/about']" routerLinkActive="active">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/invest']" routerLinkActive="active">For Investors</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/partner']" routerLinkActive="active">For partners</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link mr-auto" [routerLink]="['/rules']" routerLinkActive="active">Rules</a>
+              </li>
+              <li class="nav-item">
+              <a class="text-white nav-link mr-auto" [routerLink]="['/support']" routerLinkActive="active">Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        
+      <div class="row pad px-0 border-line">
+        <div class="col-10 col-sm-8 col-lg-4 col-xl-3 ml-auto mr-auto pl-md-5 pl-lg-0 p-0">
+          <a [routerLink]="['/user']" routerLinkActive="active">
+            <img src="../assets/images/logo.png"  class="pl-5 marg pl-lg-0 mb-4">
+            <span class="text pl-5 pl-sm-1  logo-text">Secfx<span class="chain">Chain</span></span>
+          </a>
+        </div>
+        <div class="col-6 mr-auto ml-auto col-md-10 col-lg-8 col-xl-7 px-0">
+          <ul class="nav  flex-column flex-md-row p-0">
+            <li class="nav-item">
+                <a href="#" target="__blank" class="nav-link">
+                    <span><i class="fa fa-facebook chain"></i></span>
+                    <span class="ml-2">Facebook</span>
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a href="#" target="__blank" class="nav-link">
+                    <span><i class="fa fa-instagram chain"></i></span>
+                    <span class="ml-2">Instagram</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span><i class="fa fa-phone chain"></i></span>
+                    <span class="ml-2">Phone</span>
+                    <p class="">+14422355192</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span><i class="fa fa-envelope-o chain"></i></span>
+                    <span class="ml-2">Email</span>
+                    <p class="">admin@bitfxchain.com</p>
+                </a>
+            </li>
+          </ul>
+        </div> 
+        <div class="col-10 col-sm-7 col-lg-3 col-xl-2  mr-auto ml-auto pl-5 pl-sm-4 pl-md-5 px-lg-0 pt-xl-4">
+          <a  [routerLink]="['/login']" routerLinkActive="active" >
+            <button class="color text-white ml-md-5 ml-lg-0 px-3">SIGN IN</button>
+          </a>
+          <a [routerLink]="['/register']" routerLinkActive="active">
+            <button class="color text-white ml-md-5 ml-lg-0 px-3">SIGN UP</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <!--Nav box display for medium devices and above-->
+      <div class="row">
+        <div class="col-12 py-3 d-none d-md-block p-0 p-lg-3">
+          <ul class="nav p-0">
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/user']" routerLinkActive="active">Home</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/about']" routerLinkActive="active">About</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4 px-xl-5">
+                <a class="nav-link color" [routerLink]="['/invest']" routerLinkActive="active">For Investors</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4 px-xl-5">
+                <a class="nav-link color" [routerLink]="['/partner']" routerLinkActive="active">For partners</a>
+            </li>
+            <li class="nav-item px-2 px-xl-4">
+                <a class="nav-link color" [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/rules']" routerLinkActive="active">Rules</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/support']" routerLinkActive="active">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="display">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6  logo-pad px-0">
+            <!--LOGO AREA-->
+            <img src="../../assets/images/logo_light.png" class="w-100">
+            <img src="../../assets/images/logo-el-right.png" class="decrease-one logo-pos-one"> 
+            <img src="../../assets/images/logo-el-left.png" class="decrease-one logo-pos-two">
+            <img src="../../assets/images/logo-el4.png" class="decrease-one one logo-pos-three">
+            <img src="../../assets/images/logo-el5.png" class="decrease-two logo-pos-four">
+            <img src="../../assets/images/logo-el3.png" class="decrease-three logo-pos-five">
+            <img src="../../assets/images/logo-el2.png" class="decrease-four logo-pos-six">
+            <img src="../../assets/images/logo-el1.png" class="decrease-one dex-one logo-pos-sev">
+            <img src="../../assets/images/logo-center.png" class="decrease-five logo-pos-eig">
+          </div>
+        
+          <div class="col-12 col-lg-6 pt-3">
+            <h2 class="py-4 font_one">Earn from 50% to 70% every day!</h2>
+            <div class="media">
+              <img class="turn mr-2 mt-5 mb-2" src="../../assets/images/btc-big.png"> 
+                <button type="button" class="text-left trans border-left btn btn-outline text-white">
+                  SecuredprofitOption is a new generation <br>
+                  of decentralized digital <br>
+                  currency, created and <br>
+                  operating only on the <br>
+                  Internet <br>
+                </button>           
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+  <div class="container px-sm-0">
+    <div class="row border-line-top py-4">
+      <div class="col-12 mb-4">
+        <h3 class="font_two pb-2">Rules & Agreements</h3>
+        <p class="ultra-light">
+            Please read the following rules carefully before signing in.
+        </p>
+      </div>
+    </div>
+    <div class="row px-4 px-lg-0">
+      <div class="col-12">
+          <div class="line p-3">
+            <p class="ultra-light">
+                You agree to be of legal age in your country to partake in this program, and in all the cases your minimal age must be 18 years.
+            </p>
+            <p class="ultra-light">
+                Securedprofitfxchain.com is not available to the general public and is opened only to the qualified members of securedprofitfxchain.com, the use of this site is restricted to our members and to
+                individuals personally invited by them. Every deposit is considered to be a private transaction between the securedprofitfxchain.com and its Member.
+            </p>
+            <p class="ultra-light">
+                As a private transaction, this program is exempt from the US Securities Act of 1933, the US Securities Exchange Act of 1934 and the US Investment Company Act of 1940 and all
+                other rules, regulations and amendments thereof. We are not FDIC insured. We are not a licensed bank or a security firm.
+            </p>
+            <p class="ultra-light">
+                You agree that all information, communications, materials coming from Securedprofitfxchain.com are unsolicited and must be kept private, confidential and protected from any disclosure.
+                Moreover, the information, communications and materials contained herein are not to be regarded as an offer, nor a solicitation for investments in any jurisdiction which deems
+                non-public offers or solicitations unlawful, nor to any person to whom it will be unlawful to make such offer or solicitation.
+            </p>
+            <p class="ultra-light">
+                Investors last Deposit and Withdrawal has been deactivated due to compliants from most investors on their investment privacy, meanwhile this will be re-activatd when need arise!.
+            </p>
+            <p class="ultra-light">
+                All the data giving by a member to Securedprofitfxchain.com will be only privately used and not disclosed to any third parties. Securedprofitfxchain.com is not responsible or liable for any loss of data.
+            </p>
+            <p class="ultra-light">
+                You agree to hold all principals and members harmless of any liability. You are investing at your own risk and you agree that a past performance is not an explicit guarantee for
+                the same future performance. You agree that all information, communications and materials you will find on this site are intended to be regarded as an informational and educational matter and
+                not an investment advice.
+            </p>
+            <p class="ultra-light">
+                We reserve the right to change the rules, commissions and rates of the program at any time and at our sole discretion without notice, especially in order to respect the integrity and security
+                of the members' interests. You agree that it is your sole responsibility to review the current terms. 
+            </p>
+            <p class="ultra-light">
+                Securedprofitfxchain.com is not responsible or liable for any damages, losses and costs resulting from any violation of the conditions and terms and/or use of our website by a member. You guarantee 
+                to Securedprofitfxchain.com that you will not use this site in any illegal way and you agree to respect your local, national and international laws.
+            </p>
+            <p class="ultra-light">
+                Don't post bad vote on Public Forums and at Gold Rating Site without contacting the administrator of our program FIRST. Maybe there was a technical problem with your transaction, so please
+                always CLEAR the thing with the administrator.
+            </p>
+            <p class="ultra-light">
+                We will not tolerate SPAM or any type of UCE in this program. SPAM violators will be immediately and permanently removed from the program.
+            </p>
+            <p class="ultra-light">
+                bitfxchain.com reserves the right to accept or decline any member for membership without explanation.
+            </p>
+            <p class="ultra-light"> 
+                If you do not agree with the above disclaimer, please do not go any further.
+            </p>
+          </div>  
+        </div>
+      </div>       
+    </div>

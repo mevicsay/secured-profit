@@ -1,0 +1,175 @@
+@import "../app.component.css";
+
+.virse{
+    background-image: url(../../assets/images/splaash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+/*----------------Responsive Styling--------------*/
+
+.card-b{
+    -webkit-border-radius: 150px;
+            border-radius: 100%;
+    outline: none;
+    border: 3px solid rgba(189, 131, 15, 0.534);
+    display: inline-block;
+    padding: 25%;
+    position: relative;
+    left: 0px;
+}
+.card-c{
+    -webkit-border-radius: 150px;
+            border-radius: 100%;
+    outline: none;
+    border: 3px solid rgba(189, 131, 15, 0.534);
+    display: inline-block;
+    padding: 25%;
+    position: relative;
+    left: 0px;
+}
+
+
+@media(min-width:360px) {
+ 
+    
+}
+@media (min-width: 412px) {
+
+ }
+
+@media (min-width: 576px) {
+    .card-b{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 35%;
+        position: relative;
+        left: 0px;
+    }
+    .card-c{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 35%;
+        position: relative;
+        left: 0px;
+    }
+    .side{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .side-a{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+ }
+
+
+@media (min-width: 768px) {
+    .card-b{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 35%;
+        position: relative;
+        left: 0px;
+    }
+    .card-c{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 35%;
+        position: relative;
+        left: 0px;
+    }
+    .side{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .side-a{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+ }
+
+
+@media (min-width: 992px) {
+
+ }
+
+
+@media (min-width: 1024px) {
+    .card-b{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 35%;
+        position: relative;
+        left: 130px;
+    }
+    .card-c{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 35%;
+        position: relative;
+        left: 25px;
+    }
+    .side{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .side-a{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media(min-width:1280px){
+    .card-b{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 34%;
+        position: relative;
+        left: 170px;
+    }
+    .card-c{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 34%;
+        position: relative;
+        left: -170px;
+    }
+    .side{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .side-a{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .s{
+        padding-top: 280px; 
+    }
+    
+}

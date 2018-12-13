@@ -1,0 +1,1036 @@
+body{
+    color: white !important;
+}
+.dots{
+    background-color: rgba(17, 17, 34, 0.829);
+}
+.verse{
+    background-image: url(../../assets/images/splaash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+p, h1, h2, h3, h4, h5{
+    color: white;
+}
+a{
+    color: white !important;
+    font-size: 16px !important;
+    font-family: "RobotoMedium";
+}
+a:hover{
+    text-decoration: none !important;
+}
+.text{
+    font-size: 35px;
+}
+.chain{
+    color: #E79B07;
+}
+.logo-text{
+    font-family:'MagistralTT-Bold';
+}
+.pad-but{
+    padding: 20px 20px 50px;
+}
+.link{
+    color:white;
+    text-decoration: none;
+    transition: all ease-in-out;
+}
+link:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.color{
+    background-color: rgba(245, 245, 220, 0);
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+    font-family: "MagistralTT";
+    font-weight: 700;
+}
+.color:hover{
+    background-color: #E79B07;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+}
+.border-line{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.border-line-top{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.bord-left{
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+.pad{
+    padding-top: 35px;
+}
+.nav-btn{
+    color: #E79B07;
+    font-weight: 600;
+    font-size: 30px;
+}
+.display{
+    background-image: url(../../assets/images/bg_header.png);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+    background-position: 50%;
+}
+.font_one{
+    font-family: "MagistralTT";
+    font-weight: 500;
+}
+.font_two{
+    font-family: "MagistralTT";
+    font-weight: 800;
+}
+.font_three{
+    font-family: "RobotoBold";
+    font-weight: 600;
+}
+.color-btn{
+    background-color:#E79B07;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+    font-family: "MagistralTT";
+    font-weight: 700; 
+}
+.color-btn:hover {
+    background-color: rgb(165, 119, 27);
+}
+.trans{
+    background-color: rgba(168, 167, 163, 0);
+}
+.small{
+    font-size: 14px;
+    color: white;
+}
+.ultra-light{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "RobotoRegular";
+}
+.roboto{
+    font-weight: 500;
+    font-family: "MagistralTT-Bold";
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.icon{
+    color: #E79B07;
+}
+.light{
+    color: rgba(255, 255, 255, 0.15);
+}
+.huge{
+    font-size: 90px;
+    font-weight: 900;
+}
+.huge-b{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.card-m{
+    background-color:#E79B07;
+    -webkit-border-radius: 50px;
+            border-radius: 50px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 700; 
+}
+.card-a{
+    background-color:rgba(189, 131, 15, 0.534);
+    -webkit-border-radius: 50px;
+            border-radius: 50px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 700; 
+    position: relative;
+}
+.card-a:hover{
+    background-color:#E79B07; 
+}
+.dark-round{
+    background-color: rgba(18, 16, 26, 0.37);
+    -webkit-border-radius: 50px;
+            border-radius: 50px;
+    outline: none;
+    border: none;
+    display: inline-block;
+}
+.line{
+    border: 2px solid #E79B07 !important;
+    -webkit-border-radius: 25px !important;
+            border-radius: 25px !important;
+}
+.line-up{
+    color: white !important;
+    background-color: #252a3360 !important;
+    border: 1px solid rgba(231, 156, 7, 0.568) !important;
+    -webkit-border-radius: 25px !important;
+            border-radius: 25px !important;
+}
+.line-up:focus{
+    background-color: #252a33 !important;
+    outline: 0 !important;
+}
+.gold{
+    color:#E79B07; 
+    font-size: 41px;
+    font-weight: 600;
+}
+.gold-a{
+    color:#E79B07; 
+    font-size: 30px;
+    font-weight: 100 !important;
+}
+.gold-b{
+    color:#E79B07; 
+    font-size: 15px;
+    font-weight: 600 !important;
+}
+.lit-btn{
+    background-color:#E79B07;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    border: 1px solid rgb(250, 173, 18);
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 500; 
+}
+.lit-btn-a{
+    background-color:(189, 131, 15, 0.534);
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    border: 1px solid rgb(250, 173, 18);
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 500; 
+}
+.lit-btn:hover, .lit-btn-a:hover{
+    border: 1px solid rgba(216, 211, 200, 0.801);
+}
+.textt {
+    text-align: center;
+}
+.space{
+    padding-top: 100px;
+    padding-left: 50px !important;
+    margin-left: 20px; 
+}
+.space-top{
+    padding-top: 120px;
+    padding-left:20px !important; 
+}
+.s{
+    padding-top: 300px; 
+}
+
+.li{
+    color: rgba(134, 131, 124, 0.336);
+}
+.link{
+    font-size: 14px !important;
+}
+.link:hover{
+    color: #E79B07 !important;
+    border-bottom: 1px solid rgba(231, 156, 7, 0.397);
+}
+
+/*-------------LOGO Positioning---------------*/
+.logo-pad{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.logo-pos-one{
+    position: absolute;
+    top: 80px;
+    left: 160px;
+}
+.logo-pos-two{
+    position: absolute;
+    top: 72px;
+    left: 20px !important;
+}
+.logo-pos-three{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+.logo-pos-four{
+    position: absolute;
+    top: 43px;
+    left: 95px;
+}
+.logo-pos-five{
+    position: absolute;
+    top: 57px;
+    left: 111px;
+}
+.logo-pos-six{
+    position: absolute;
+    top: 27px;
+    left: 79px;
+}
+.logo-pos-sev{
+    position: absolute;
+    top: 24px;
+    left: 77px;
+}
+.logo-pos-eig{
+    position: absolute;
+    top: 74px;
+    left: 134px;
+}
+.opac{
+    background-color: rgba(224, 158, 26, 0.623);
+    padding: 126px;
+    border-radius: 50px;
+}
+.map{
+    background-image: url(../../assets/images/StaticMapService.png);
+    border-radius: 50px;
+    height: 250px;
+}
+/*----------------Responsive Styling--------------*/
+.card-v{
+    background-color:#E79B07;
+    -webkit-border-radius: 50px;
+            border-radius: 50px;
+    outline: none;
+    border: none;
+    display: inline-block;
+}
+.card-x{
+    background-color:rgba(231, 155, 7, 0.42);
+}
+.card-x:hover{
+    background-color: #E57100;
+}
+.card-y{
+    background-color: #E57100;
+}
+.card-w{
+    background-color:rgb(229, 113, 0, 0.5);
+    -webkit-border-radius: 50px;
+    -webkit-border-bottom-right-radius: 0px;
+    -webkit-border-bottom-left-radius:  0px;
+    border-radius: 50px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius:  0px;
+}
+.card-w:hover{
+    background-color: #E57100;
+}
+.card-z{
+    background-color:rgba(231, 155, 7, 0.42);
+    -webkit-border-radius: 50px;
+    -webkit-border-top-right-radius: 0px;
+    -webkit-border-top-left-radius:  0px;
+    border-radius: 50px;
+    border-top-right-radius: 0px;
+    border-top-left-radius:  0px;
+}
+.card-z:hover{
+    background-color: #E57100;
+}
+.decrease-one{
+    width: 162px;
+}
+.decrease-two{
+    width: 130px;
+}
+.decrease-three{
+    width: 98px;
+}
+.decrease-four{
+    width: 160px;
+}
+.decrease-five{
+    width: 50px;
+}
+.decrease{
+    width: 250px;
+}
+.bit{
+    width: 20%;
+}
+.margin{
+    margin-top: 50px;
+}
+.two{
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
+.three{
+    position: absolute;
+    left: 20px;
+    top: 43px;
+}
+.four{
+    position: absolute;
+    left: 20px;
+    top: 90px;
+}
+.card-b{
+    -webkit-border-radius: 150px;
+            border-radius: 100%;
+    outline: none;
+    border: 3px solid rgba(189, 131, 15, 0.534);
+    display: inline-block;
+    padding: 40%;
+    position: relative;
+    left: 0px;
+}
+.card-c{
+    -webkit-border-radius: 150px;
+            border-radius: 100%;
+    outline: none;
+    border: 3px solid rgba(189, 131, 15, 0.534);
+    display: inline-block;
+    padding: 40%;
+    position: relative;
+    left: 0px;
+}
+
+@media(min-width:360px) {
+    .decrease-one{
+    width: 160px;
+    }
+    .decrease-four{
+        width: 170px;
+    }
+    .decrease-five{
+        width: 60px;
+    }
+    .logo-pos-one{
+        position: absolute;
+        top: 80px;
+        left: 160px;
+    }
+    .logo-pos-two{
+        position: absolute;
+        top: 72px;
+        left: 20px !important;
+    }
+    .logo-pos-three{
+        position: absolute;
+        top: 20px;
+        left: 70px;
+    }
+    .logo-pos-four{
+        position: absolute;
+        top: 55px;
+        left: 112px;
+    }
+    .logo-pos-five{
+        position: absolute;
+        top: 70px;
+        left: 128px;
+    }
+    .logo-pos-six{
+        position: absolute;
+        top: 35px;
+        left: 95px;
+    }
+    .logo-pos-sev{
+        position: absolute;
+        top: 20px;
+        left: 78px;
+    }
+    .logo-pos-eig{
+        position: absolute;
+        top: 80px;
+        left: 150px;
+    }
+    .decrease-one{
+        width: 200px;
+    }
+    .decrease{
+        width: 300px;
+    }
+    .two{
+        position: absolute;
+        left: 20px;
+        top: 80px;
+    }
+    .three{
+        position: absolute;
+        left: 18px;
+        top: 43px;
+    }
+    .four{
+        position: absolute;
+        left: 18px;
+        top: 90px;
+    }
+    
+}
+@media (min-width: 412px) {
+    .dex-one{
+        width: 250px;
+    }
+    .decrease-two{
+        width: 180px;
+    }
+    .decrease-three{
+        width: 140px;
+    }
+    .decrease-four{
+        width: 220px;
+    }
+    .decrease-five{
+        width: 60px;
+    }
+    .logo-pos-one{
+        position: absolute;
+        top: 100px;
+        left: 212px;
+    }
+    .logo-pos-two{
+        position: absolute;
+        top: 95px;
+        left: -8px !important;
+    }
+    .logo-pos-three{
+        position: absolute;
+        top: 40px;
+        left: 102px;
+    }
+    .logo-pos-four{
+        position: absolute;
+        top: 50px;
+        left: 115px;
+    }
+    .logo-pos-five{
+        position: absolute;
+        top: 68px;
+        left: 135px;
+    }
+    .logo-pos-six{
+        position: absolute;
+        top: 30px;
+        left: 95px;
+    }
+    .logo-pos-sev{
+        position: absolute;
+        top: 15px;
+        left: 76px;
+    }
+    .logo-pos-eig{
+        position: absolute;
+        top: 98px;
+        left: 175px;
+    }
+    
+ }
+
+@media (min-width: 576px) {
+    .card-v{
+        background-color:#E79B07;
+        -webkit-border-radius: 50px;
+                border-radius: 50px;
+        outline: none;
+        border: none;
+        display: inline-block;
+    }
+    
+    .card-w{
+        background-color:rgb(229, 113, 0, 0.5);
+        -webkit-border-radius: 50px;
+        -webkit-border-bottom-right-radius: 0px;
+        -webkit-border-bottom-left-radius:  0px;
+        -webkit-border-top-right-radius:  0px;
+        border-radius: 50px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius:  0px;
+        border-top-right-radius:  0px;
+    }
+    .card-w:hover{
+        background-color: #E57100;
+    }
+    .card-x{
+        background-color:rgba(231, 155, 7, 0.42);
+        border-top-right-radius:  50px;
+    }
+    .card-x:hover{
+        background-color: #E57100;
+    }
+    .card-y{
+        background-color: #E57100;
+        border-bottom-left-radius:  50px;
+    }
+    .card-z{
+        background-color:rgba(231, 155, 7, 0.42);
+        -webkit-border-radius: 50px;
+        -webkit-border-top-right-radius: 0px;
+        -webkit-border-top-left-radius:  0px;
+        border-radius: 50px;
+        border-top-right-radius: 0px;
+        border-top-left-radius:  0px;
+        border-bottom-left-radius:  0px;
+    }
+    .card-z:hover{
+        background-color: #E57100;
+    }
+    .decrease{
+        width: 470px;
+    }
+
+    .decrease-one{
+        width: 260px;
+    }
+    .decrease-two{
+        width: 130px;
+    }
+    .decrease-three{
+        width: 98px;
+    }
+    .decrease-four{
+        width: 180px;
+    }
+    .decrease-five{
+        width: 60px;
+    }
+    .card-b{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 40%;
+        position: relative;
+        left: 0px;
+    }
+    .card-c{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 40%;
+        position: relative;
+        left: 0px;
+    }
+    .side{
+        padding-left: 60px;
+        padding-right: 160px;
+    }
+    .side-a{
+        padding-left: 160px;
+        padding-right: 60px;
+    }
+
+    /*-------------LOGO Positioning---------------*/
+    .logo-pad{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .logo-pos-one{
+        position: absolute;
+        top: 120px;
+        left: 248px;
+    }
+    .logo-pos-two{
+        position: absolute;
+        top: 115px;
+        left: -10px !important;
+    }
+    .logo-pos-three{
+        position: absolute;
+        top: 40px;
+        left: 132px;
+    }
+    .logo-pos-four{
+        position: absolute;
+        top: 110px;
+        left: 202px;
+    }
+    .logo-pos-five{
+        position: absolute;
+        top: 125px;
+        left: 217px;
+    }
+    .logo-pos-six{
+        position: absolute;
+        top: 85px;
+        left: 179px;
+    }
+    .logo-pos-sev{
+        position: absolute;
+        top: 46px;
+        left: 138px;
+    }
+    .logo-pos-eig{
+        position: absolute;
+        top: 140px;
+        left: 240px;
+    }
+    
+ }
+
+
+@media (min-width: 768px) {
+    .decrease-one{
+        width: 300px;
+    }
+    .one{
+        width: 280px;
+    }
+    .decrease-two{
+        width: 180px;
+    }
+    .decrease-three{
+        width: 138px;
+    }
+    .decrease-four{
+        width: 250px;
+    }
+    .decrease-five{
+        width: 80px;
+    }
+
+    /*-------------LOGO Positioning---------------*/
+    .logo-pad{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .logo-pos-one{
+        position: absolute;
+        top: 185px;
+        left: 360px;
+    }
+    .logo-pos-two{
+        position: absolute;
+        top: 170px;
+        left: 25px !important;
+    }
+    .logo-pos-three{
+        position: absolute;
+        top: 85px;
+        left: 210px;
+    }
+    .logo-pos-four{
+        position: absolute;
+        top: 145px;
+        left: 272px;
+    }
+    .logo-pos-five{
+        position: absolute;
+        top: 168px;
+        left: 293px;
+    }
+    .logo-pos-six{
+        position: absolute;
+        top: 110px;
+        left: 240px;
+    }
+    .logo-pos-sev{
+        position: absolute;
+        top: 80px;
+        left: 200px;
+    }
+    .logo-pos-eig{
+        position: absolute;
+        top: 190px;
+        left: 320px;
+    }
+    .card-b{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 40%;
+        position: relative;
+        left: 0px;
+    }
+    .card-c{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 40%;
+        position: relative;
+        left: 0px;
+    }
+    .side{
+        padding-left: 60px;
+        padding-right: 160px;
+    }
+    .side-a{
+        padding-left: 160px;
+        padding-right: 60px;
+    }
+ }
+
+
+@media (min-width: 992px) {
+
+    .w{
+        width: 450px;
+    }
+    .decrease{
+        width: 500px;
+    }
+    .decrease-two{
+        width: 220px;
+    }
+    .decrease-three{
+        width: 180px;
+    }
+    .logo-pos-one{
+        position: absolute;
+        top: 80px;
+        left: 220px;
+    }
+    .logo-pos-two{
+        position: absolute;
+        top: 83px;
+        left: -50px !important;
+    }
+    .logo-pos-three{
+        position: absolute;
+        top: 20px;
+        left: 70px;
+    }
+    .logo-pos-four{
+        position: absolute;
+        top: 58px;
+        left: 131px;
+    }
+    .logo-pos-five{
+        position: absolute;
+        top: 78px;
+        left: 150px;
+    }
+    .logo-pos-six{
+        position: absolute;
+        top: 42px;
+        left: 115px;
+    }
+    .logo-pos-sev{
+        position: absolute;
+        top: 18px;
+        left: 90px;
+    }
+    .logo-pos-eig{
+        position: absolute;
+        top: 105px;
+        left: 200px;
+    }
+ }
+
+
+@media (min-width: 1024px) {
+    .pad-but{
+        padding: 50px 30px 510px 30px;
+    }
+    .card-v{
+        background-color:#E79B07;
+        -webkit-border-radius: 50px;
+                border-radius: 50px;
+        outline: none;
+        border: none;
+        display: inline-block;
+    }
+    .card-x{
+        background-color:rgba(231, 155, 7, 0.42);
+        border-top-right-radius: 0px;
+    }
+    .card-x:hover{
+        background-color: #E57100;
+        border-top-right-radius: 0px;
+
+    }
+    .card-y{
+        background-color: #E57100;
+        border-bottom-left-radius:  0px;
+    }
+    .card-w{
+        background-color:rgb(229, 113, 0, 0.5);
+        -webkit-border-radius: 50px;
+        -webkit-border-bottom-right-radius: 0px;
+        -webkit-border-bottom-left-radius:  0px;
+        border-radius: 50px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius:  0px;
+    }
+    .card-w:hover{
+        background-color: #E57100;
+    }
+    .card-z{
+        background-color:rgba(231, 155, 7, 0.42);
+        -webkit-border-radius: 50px;
+        -webkit-border-top-right-radius: 0px;
+        -webkit-border-top-left-radius:  0px;
+        border-radius: 50px;
+        border-top-right-radius: 0px;
+        border-top-left-radius:  0px;
+    }
+    .card-z:hover{
+        background-color: #E57100;
+    }
+    .margin{
+        margin-top: 0px;
+    }
+    .decrease{
+        width: 500px;
+    }
+    .decrease{
+        width: 470px;
+    }
+    .one{
+        widows: 350px;
+    }
+    .dex-one{
+        width: 480px !important;
+    }
+    
+    .decrease-one{
+        width: 440px;
+    }
+    .decrease-two{
+        width: 250px;
+    }
+    .decrease-three{
+        width: 380px;
+    }
+    .decrease-four{
+        width: 450px;
+    }
+    .decrease-five{
+        width: 127px;
+    }
+
+    /*---------LOGO POSITIONING------*/
+    .logo-pad{
+        margin-top: 60px;
+        margin-bottom: 110px;
+    }
+    .logo-pos-one{
+        position: absolute;
+        top: 80px;
+        left: 300px;
+    }
+    .logo-pos-two{
+        position: absolute;
+        top: 83px;
+        left: -130px !important;
+    }
+    .logo-pos-three{
+        position: absolute;
+        top: -10px;
+        left: 60px;
+    }
+    .logo-pos-four{
+        position: absolute;
+        top: 72px;
+        left: 163px;
+    }
+    .logo-pos-five{
+        position: absolute;
+        top: 5px;
+        left: 100px;
+    }
+    .logo-pos-six{
+        position: absolute;
+        top: -23px;
+        left: 75px;
+    }
+    .logo-pos-sev{
+        position: absolute;
+        top: -49px;
+        left: 50px;
+    }
+    .logo-pos-eig{
+        position: absolute;
+        top: 105px;
+        left: 225px;
+    }
+    .card-b{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 40%;
+        position: relative;
+        left: 90px;
+    }
+    .card-c{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 40%;
+        position: relative;
+        left: -30px;
+    }
+    .side{
+        padding-left: 60px;
+        padding-right: 160px;
+    }
+    .side-a{
+        padding-left: 160px;
+        padding-right: 40px;
+    }
+}
+@media(min-width:1280px){
+    .card-b{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 40%;
+        position: relative;
+        left: 170px;
+    }
+    .card-c{
+        -webkit-border-radius: 150px;
+                border-radius: 100%;
+        outline: none;
+        border: 3px solid rgba(189, 131, 15, 0.534);
+        display: inline-block;
+        padding: 40%;
+        position: relative;
+        left: -170px;
+    }
+    .side{
+        padding-left: 60px;
+        padding-right: 160px;
+    }
+    .side-a{
+        padding-left: 160px;
+        padding-right: 60px;
+    }
+    .pad-but{
+        padding: 50px 30px 410px 30px;
+    }
+}
+
+button:focus{outline: 0 !important}

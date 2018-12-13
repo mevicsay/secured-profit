@@ -1,0 +1,442 @@
+<div class="universal">
+  <div class="dots">
+    <div class="container">
+      <!--Navbar control button for small devices only-->
+      <div class="d-flex justify-content-end">
+        <nav class="d-lg-none navbar navbar-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-reorder nav-btn"></span>
+          </button>
+      </nav>
+      </div>
+      <!--collapse navbar display lg-none-->
+      
+      <div class="pos-f-t d-block d-lg-none bg-light">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="nav-bg  p-4">
+            <ul class="nav ml-auto mr-auto flex-column">
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/user']" routerLinkActive="active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link " [routerLink]="['/about']" routerLinkActive="active">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/invest']" routerLinkActive="active">For Investors</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/partners']" routerLinkActive="active">For partners</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link mr-auto" [routerLink]="['/rules']" routerLinkActive="active">Rules</a>
+              </li>
+              <li class="nav-item">
+              <a class="text-white nav-link mr-auto" [routerLink]="['/support']" routerLinkActive="active">Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        
+      <div class="row pad px-0 border-line">
+        <div class="col-10 col-sm-8 col-lg-4 col-xl-3 ml-auto mr-auto pl-md-5 pl-lg-0 p-0">
+          <a [routerLink]="['/user']" routerLinkActive="active">
+            <img src="../assets/images/logo.png"  class="pl-5 marg pl-lg-0 mb-4">
+            <span class="text pl-5 pl-sm-1  logo-text">Secfx<span class="chain">Chain</span></span>
+          </a>
+        </div>
+        <div class="col-6 mr-auto ml-auto col-md-10 col-lg-8 col-xl-7 px-0">
+          <ul class="nav  flex-column flex-md-row p-0">
+            <li class="nav-item">
+                <a href="#" target="__blank" class="nav-link">
+                    <span><i class="fa fa-facebook chain"></i></span>
+                    <span class="ml-2">Facebook</span>
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a href="#" target="__blank" class="nav-link">
+                    <span><i class="fa fa-instagram chain"></i></span>
+                    <span class="ml-2">Instagram</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span><i class="fa fa-phone chain"></i></span>
+                    <span class="ml-2">Phone</span>
+                    <p class="">+14422355192</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <span><i class="fa fa-envelope-o chain"></i></span>
+                    <span class="ml-2">Email</span>
+                    <p class="">admin@bitfxchain.com</p>
+                </a>
+            </li>
+          </ul>
+        </div> 
+        <div class="col-10 col-sm-7 col-lg-3 col-xl-2  mr-auto ml-auto pl-5 pl-sm-4 pl-md-5 px-lg-0 pt-xl-4">
+          <a  [routerLink]="['/login']" routerLinkActive="active" >
+            <button class="color text-white ml-md-5 ml-lg-0 px-3">SIGN IN</button>
+          </a>
+          <a [routerLink]="['/register']" routerLinkActive="active">
+            <button class="color text-white ml-md-5 ml-lg-0 px-3">SIGN UP</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <!--Nav box display for medium devices and above-->
+      <div class="row">
+        <div class="col-12 py-3 d-none d-md-block p-0 p-lg-3">
+          <ul class="nav p-0">
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/user']" routerLinkActive="active">Home</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/about']" routerLinkActive="active">About</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4 px-xl-5">
+                <a class="nav-link color" [routerLink]="['/invest']" routerLinkActive="active">For Investors</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4 px-xl-5">
+                <a class="nav-link color" [routerLink]="['/partner']" routerLinkActive="active">For partners</a>
+            </li>
+            <li class="nav-item px-2 px-xl-4">
+                <a class="nav-link color" [routerLink]="['/faq']" routerLinkActive="active">FAQ</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/rules']" routerLinkActive="active">Rules</a>
+            </li>
+            <li class="nav-item px-2 px-lg-4">
+                <a class="nav-link color" [routerLink]="['/support']" routerLinkActive="active">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="display">
+      <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6  logo-pad px-0">
+              <!--LOGO AREA-->
+              <img src="../assets/images/logo_light.png" class="w-100">
+              <img src="../assets/images/logo-el-right.png" class="decrease-one logo-pos-one"> 
+              <img src="../assets/images/logo-el-left.png" class="decrease-one logo-pos-two">
+              <img src="../assets/images/logo-el4.png" class="decrease-one one logo-pos-three">
+              <img src="../assets/images/logo-el5.png" class="decrease-two logo-pos-four">
+              <img src="../assets/images/logo-el3.png" class="decrease-three logo-pos-five">
+              <img src="../assets/images/logo-el2.png" class="decrease-four logo-pos-six">
+              <img src="../assets/images/logo-el1.png" class="decrease-one dex-one logo-pos-sev">
+              <img src="../assets/images/logo-center.png" class="decrease-five logo-pos-eig">
+            </div>
+          
+            <div class="col-12 col-lg-6 pt-3">
+              <h2 class="py-4 font_one">Earn from 50% to 70% every day!</h2>
+              <div class="media">
+                <img class="turn mr-2 mt-5 mb-2" src="../assets/images/btc-big.png"> 
+                  <button type="button" class="text-left trans border-left btn btn-outline text-white">
+                    Bitcoin is a new generation <br>
+                    of decentralized digital <br>
+                    currency, created and <br>
+                    operating only on the <br>
+                    Internet <br>
+                  </button>          
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+ 
+
+  <div class="container px-sm-0">
+    <div class="row border-line-top py-4">
+      <div class="col-12 col-lg-6 mb-4">
+        <h3 class="font_two pb-2">About Company</h3>
+        <div>
+          <img src="../../assets/images/1.png" class="w-100">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 py-lg-5">
+        <p class="ultra-light">
+          Our team of Professional traders, economist, logistics specialists and IT specialists were united by a common idea.
+          Having experience and possibilities of its realizaton, we created an investment company, which in a short time
+          was able to achieve success. We are constantly improving the methods of mining and trading the cryptocurrency at
+          the exchange, closely following any flutations in rates and strive to ensure a stable income for each of our investors.
+        </p>
+        <p class="ultra-light">
+          Among other tasks, there is a constant and harmonious development of the project, ehich will allow to expand and
+          increase the investment pool over time, upgrade the equipment and gurantee instant payments to all project
+          participant.
+        </p>
+        <div class="mt-3">
+          <a [routerLink]="['/register']" routerLinkActive="active" class="color-btn text-white px-4">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 px-sm-0 py-2">
+    <div class="row py-3">
+      <div class="col-12 pt-3">
+        <h3 class="font_two">Our Mission</h3>
+        <p class="ultra-light">
+          When creating a company, it is important to determine not only the direction of activity but also the main goal-the
+          mission. We distinguish three main missions:
+        </p>
+      </div>
+      <div class="col-12 col-lg-11 mt-3 dark-round">
+        <div class="row">
+          <div class="col-2 col-md-1">
+              <span class="gold pl-1 pl-lg-4">1</span>
+            </div>
+            <div class="col-10 col-md-11 px-0">
+              <p class="mb-0 mt-2" style="font-weight:600;"> Mission</p>
+              <p class="ultra-light">Getting stable and regular earning from mining and trading Bitcoin on exchanges.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-11 my-3 dark-round">
+          <div class="row">
+            <div class="col-2 col-md-1">
+                <span class="gold pl-1 pl-lg-4">2</span>
+              </div>
+              <div class="col-10 col-md-11 px-0">
+                <p class="mb-0 mt-2" style="font-weight:600;"> Mission</p>
+                <p class="ultra-light">Harmonious development of the project by attracting new investors.</p>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-11 dark-round">
+            <div class="row">
+              <div class="col-2 col-md-1">
+                  <span class="gold pl-1 pl-lg-4">3</span>
+                </div>
+                <div class="col-10 col-md-11 px-0">
+                  <p class="mb-0 mt-2" style="font-weight:600;"> Mission</p>
+                  <p class="ultra-light">Dissemination of information on the possibilities of cryptocurrency.</p>
+                </div>
+            </div>
+          </div>
+    </div>
+  </div>
+
+  <div class="container py-5">
+    <div class="row py-3 border-line-top">
+      <div class="col-12 pt-3">
+        <h3 class="font_two my-3">Advantages of Our Company</h3>
+        <p class="ultra-light my-2">
+          In a wide variety of investment companies, it is difficult to make the final choice, but only we offer the best conditions
+        </p>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-3 mt-3 mt-lg-4 px-2">
+        <div class="row">
+          <div class="col-2 col-lg-2">
+              <span>
+                <i class="fa fa-user-circle-o fa-3x icon"></i>
+              </span>
+          </div>
+          <div class="col-10 col-lg-10">
+            <div>
+                <p class="font_three mb-0">Daily Charged</p>
+                <p class="ultra-light mt-1 pt-0">
+                  Your deposit deposit works for you exactly
+                  as much as you wish, and accruals
+                  are made every day.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-3 mt-lg-4 px-2">
+        <div class="row">
+          <div class="col-2 col-lg-2">
+              <span>
+                <i class="fa fa-edit fa-3x icon"></i>
+              </span>
+          </div>
+          <div class="col-10 col-lg-10">
+            <div>
+              <p class="font_three mb-0">Stable Income</p>
+              <p class="ultra-light mt-1 pt-0">
+                We work around the clock - this
+                means that your money is
+                constantly in circulation and your
+                profit grows every hour.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-3 mt-lg-4 px-2">
+        <div class="row">
+          <div class="col-2 col-lg-2">
+              <span>
+                <i class="fa fa-desktop fa-3x icon"></i>
+              </span>
+          </div>
+          <div class="col-10 col-lg-10">
+              <div>
+                <p class="font_three mb-0">Instant Payments</p>
+                <p class="ultra-light mt-1">
+                  Getting your profit is very simple -
+                  you make out an application in
+                  your personal account and in a 
+                  moment recieve money for your 
+                  wallet. 
+                </p>
+              </div> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-3 px-2">
+        <div class="row">
+          <div class="col-2 col-lg-2">
+              <span>
+                <i class="fa fa-vcard fa-3x icon"></i>
+              </span>
+          </div>
+          <div class="col-10 col-lg-10">
+            <div>
+              <p class="font_three mb-0">Professional team</p>
+              <p class="ultra-light mt-1">
+                We have many years of experience
+                working stock exchanges and
+                the sphere of cryptocurrency
+                mining - you can compeletely
+                entrust your investment to us. 
+              </p>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-3 px-2">
+        <div class="row">
+          <div class="col-2 col-lg-2">
+              <span>
+                <i class="fa fa-feed fa-3x icon"></i>
+              </span>
+          </div>
+          <div class="col-10 col-lg-10">
+            <div>
+              <p class="font_three mb-0">Comfort and Protection</p>
+              <p class="ultra-light mt-1">
+                Your Charges are displayed in your
+                personal cabinet, you can access it
+                from any device, and all your 
+                accountd are securely encrypted.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-3 px-2">
+        <div class="row">
+          <div class="col-2 col-lg-2">
+              <span>
+                <i class="fa fa-bullseye fa-3x icon"></i>
+              </span>
+          </div>
+          <div class="col-10 col-lg-10">
+            <div>
+              <p class="font_three mb-0">24/7 Support</p>
+              <p class="ultra-light mt-1">
+                Our managers are always ready to
+                answer the questions you are 
+                intrested in - contact us in any
+                convinient way and you will
+                recieve the neccesary information.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container px-4 px-sm-0 py-2">
+      <div class="row border-line border-line-top py-3">
+        <div class="col-12 border-line py-3">
+          <h3 class="font_two">About Us</h3>
+          <p class="ultra-light">
+           We create the future. This is how we would define the main activity of the company. cryptocurrency- in particular
+           Bitcoin- the future of the global financial market. And now we are engaged in the extraction of one the most
+           valuable resources, which allows us to get maximum profits today. Exchange trade in cryptocurrency is a way of
+           converting opportunities into real money. We invite everyone to join us on the road to success and financial
+           independence.
+          </p>
+        </div>
+        <div class="col-12 py-3 col-lg-6 font_two">
+            <h3 class="font_two">How to Invest</h3>
+            <div class="row">
+              <div class="d-none d-sm-block col-2">
+                  <span class="fa-stack fa-2x mt-3 mb-5 mb-sm-2">
+                    <i class="fa fa-square fa-stack-2x icon"></i>
+                    <strong class="fa-stack-1x calendar-text m-weight text-muted" >1</strong>
+                  </span>
+                  <span class="d-none d-lg-block ml-4">
+                    <i class="fa fa-long-arrow-down light"></i>
+                  </span>
+                  <span class="fa-stack fa-2x mt-3 mb-4 mb-sm-2">
+                    <i class="fa fa-square fa-stack-2x icon"></i>
+                    <strong class="fa-stack-1x calendar-text m-weight text-muted" >2</strong>
+                  </span>
+                  <span class="d-none d-lg-block ml-4">
+                    <i class="fa fa-long-arrow-down light"></i>
+                  </span>
+                  <span class="fa-stack fa-2x mt-3">
+                    <i class="fa fa-square fa-stack-2x icon"></i>
+                    <strong class="fa-stack-1x calendar-text m-weight text-muted" >3</strong>
+                  </span>
+                </div>
+                <div class="col-12 col-sm-10 col-md-7 col-xl-10 px-4 pl-sm-3 pr-0">
+                  <div class="my-2  my-xl-4">
+                      <p class="font_three mt-3 mb-0">Register.</p>
+                      <p class="ultra-light mt-0 pt-0">
+                        To become a member of the project, you need to register. Click on the
+                        appropriate button on the page and follow the instructions
+                      </p>
+                  </div>
+                  <div class="mt-4 mt-lg-2 mt-xl-5">
+                    <p class="font_three mt-md-4 mt-lg-5 mb-0">Select the service plan.</p>
+                    <p class="ultra-light mt-0 pt-0">
+                      It is very simple to make a deposit - make a deposit by selecting a
+                      service plan in your personal account or on the appropriate page.
+                    </p>
+                  </div>
+                  <div class="mt-4 mt-lg-2 mt-xl-5">
+                    <p class="font_three mt-md-4 mt-lg-5 mb-0">Get a profit</p>
+                    <p class="ultra-light mt-0 pt-0">
+                      Percentage on the deposit will be accurued after 24 hours- this means
+                      that you can withdraw your profit almost immediately.
+                    </p>
+                  </div>    
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 py-3 px-4">
+          <h3 class="font_two pb-2 my-2">Company Documents</h3>
+          <img class="my-3" src="../../assets/images/certificate.png">
+          <p class="ultra-light my-3">U.S.A 1071 West 15th Street, Chicago,IL</p>
+          <a href="#" class="color-btn my-3 text-white px-4 ultra-light">Check Out</a>
+        </div>
+      </div>
+   </div>
+  </div>
+</div>

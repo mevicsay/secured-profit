@@ -1,0 +1,8 @@
+@import "../login/login.component.css";
+
+.virse{
+    background-image: url(../../assets/images/splaash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}

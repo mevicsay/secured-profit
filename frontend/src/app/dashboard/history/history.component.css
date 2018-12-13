@@ -1,0 +1,218 @@
+/**----Background Styling-----**/
+@import "../home/home.component.css";
+
+body{
+    color: white !important;
+}
+.universal{
+    background-image: url(../../../assets/images/splaash.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat; 
+}
+.dots{
+    background-color: rgba(17, 17, 34, 0.829);    
+}
+
+/**---Coloring-----**/
+.blue{
+    color:rgb(58, 58, 153);
+}
+.chain{
+    color: #E79B07;
+}
+a{
+    color: white !important;
+    font-size: 16px !important;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.red{
+    background-color: rgba(65, 64, 83, 0.925);
+
+}
+.color{
+    background-color: rgba(245, 245, 220, 0);
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 700;
+}
+.color:hover{
+    background-color: #E79B07;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+}
+.white-border{
+    background-color:#E79B07;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    outline: none;
+    border: 2px solid white;
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 700;
+}
+.color-btn{
+    background-color:#E79B07;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+    font-family: "MagistralTT";
+    font-weight: 700; 
+}
+.color-two{
+    background-color: rgba(255, 255, 255, 0.15);
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    outline: none;
+    border: none;
+    display: inline-block;
+    line-height: 40px;
+    font-family: "MagistralTT";
+    font-weight: 700; 
+}
+
+.nav-btn{
+    color: #E79B07;
+    font-weight: 600;
+    font-size: 30px;
+}
+.nav-bg{
+    background-color:#E79B07;
+}
+.li{
+    color: rgba(134, 131, 124, 0.336);
+}
+.link{
+    font-size: 14px !important;
+}
+.link:hover{
+    color: #E79B07 !important;
+    border-bottom: 1px solid rgba(231, 156, 7, 0.397);
+}
+.lit-btn{
+    background-color:#E79B07;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
+    border: 1px solid rgb(250, 173, 18);
+    display: inline-block;
+    line-height: 40px;
+    font-weight: 500; 
+}
+.lit-btn:hover, .lit{
+    border: 1px solid rgba(216, 211, 200, 0.801);
+}
+.lit-btn-a:hover,.b:hover{
+    border: 1px solid rgb(236, 241, 243);
+    background-color:rgb(231, 155, 7) !important;
+}
+.hov:hover{
+    background-color: rgb(175, 123, 20) !important; 
+}
+.gold{
+    color: rgb(175, 123, 20) !important;
+}
+
+
+
+/**----Border Line**/
+.border-line{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.border-line-top{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.bord-left{
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+.brd-right{
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+
+
+/**-----Padding--------**/
+.pad{
+    padding-top: 35px;
+}
+p{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.pad{
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.py{
+    padding-top: 10px;
+    padding-bottom: 155px;
+}
+
+
+/**----Fonts Styling**/
+.ultra-light{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    font-family: "RobotoRegular" !important;
+}
+.ultra-medium{
+    font-size: 13px !important;
+    font-weight: 300 !important;
+    font-family: "RobotoMedium" !important;
+}
+.ultra-medium-x{
+    font-size: 14px !important;
+    font-weight: 100 !important;
+    font-family: "RobotoRegular" !important;
+}
+.ultra-large{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    font-family: "RobotoBold" !important;
+}
+.ultra-large-x{
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    font-family: "RobotoBold" !important;
+}
+.textt {
+    text-align: center;
+}
+.logo-text{
+    font-family:'MagistralTT-Bold';
+}
+.text{
+    font-size: 35px;
+}
+
+.big{
+    font-size: 17px !important;
+    font-weight: 600 !important;
+}
+.line-hov:hover{
+    border: 1px solid rgb(175, 123, 20);
+}
+
+/****-----------Responsive styling--------------****/
+@media (min-width:1200){
+    .bord-right{
+        border-right: 1px solid rgb(207, 147, 27);
+    
+    }
+    .pbn{
+        padding-bottom:60px !important;
+    }
+}
